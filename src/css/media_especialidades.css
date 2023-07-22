@@ -1,0 +1,117 @@
+@media (max-width:425px){
+    .width-max{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+        height: 80px;
+    }.navegacao{
+        border-top: 1px solid #0000008c;
+        padding-top: 5px;
+    }
+    .navegacao a{
+        font-weight: 900;
+    }
+    .texto{
+        max-width: 425px;
+        width: 95%;
+    }
+    .width-max-conteudo a{
+        font-size: 19px;
+    }
+    .table{
+        max-width: 425px;
+    }
+    .table td{
+        text-align: center;
+    }
+    .table img{
+        display: none;
+    }
+    p, td, th{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 27px;
+    }
+    .desenvolvido p{
+        font-size: 18px;
+    }
+    .desenvolvido span{
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .desenvolvido img{
+        width: 40px;
+    }
+    td{
+        padding-top:15px ;
+        padding-bottom:15px ;
+    }
+ }
+
+@media (min-width:426px)
+and    (max-width:768px){
+    .nav{
+        padding-right: 5px;
+    }
+    .navegacao a{
+        font-size: 25px;
+    }
+    .table img{
+        display: none;
+    }    
+    .table{
+        max-width: 768px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .texto{
+        max-width: 768px;
+        width: 90%;
+    }
+    .width-max-conteudo p{
+        margin: 10px 20px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p, td, th{
+        font-size: 20px;
+    }
+    p{
+        margin: 10px 0px;
+    }
+    td{
+        padding-top:15px ;
+        padding-bottom:15px ;
+    }
+   .desenvolvido p{
+        font-size: 18px;
+    }
+    .desenvolvido span{
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .desenvolvido img{
+        width: 35px;
+    }
+ }
+
+ @media (min-width:769px)
+ and    (max-width:1024px){
+    .nav{
+        padding-right: 5px;
+    }
+    .navegacao a{
+        font-size: 23px;
+ }
+    .table{
+        max-width: 1024px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    p, td, th{
+        font-size: 20px;
+    }
+    
+}

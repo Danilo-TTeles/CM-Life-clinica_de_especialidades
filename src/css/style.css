@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main, footer{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0000008c;
+}
+.menu{
+    box-shadow: 0 0 10px 5px #0000008c inset;
+    background-color: rgb(127,255,212);
+}
+.menu img{
+    width: 25px;
+    margin: 0 2px;
+    
+}
+.width-max div a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.width-max div span{
+    color: black;
+}
+.width-max{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.navegacao a{
+    text-decoration: none;
+    color: #0000008c;
+    font-size:20px ;
+    font-weight: 900;
+    margin-left: 30px;
+    
+}
+.navegacao a:hover, .link-horario a:hover, .width-max div a:hover {
+    color: #fff;
+    text-shadow: 0px 0px 20px  #ff0505;
+}
+.titulo{
+    background-image: url('../img/recepcao.png');
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+.titulo h1{
+   color: #fff;
+   font-weight: normal;
+   font-size: 45px;
+   margin-left: 120px;
+
+}
+.width-max-conteudo, .galeria, footer div{
+    max-width: 1024px;
+    margin: 0 auto;
+    
+    
+}
+.width-max-conteudo div:first-of-type{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+} 
+p, ul{
+    font-size: 18px;
+    margin: 0 100px;
+    line-height: 26px;
+   text-align: center; 
+}
+ul{
+    text-align: justify;
+}
+.row{
+    max-width: 700px;
+    margin: 15px auto 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.row-1{
+    width: 20%;
+    padding-left: 40px;
+    
+}
+.row-2 p{
+    font-size: 23px;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: normal;
+}
+.row-2  p span{
+    font-weight: normal;
+}
+.galeria{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between ;
+    margin:30px auto;
+
+
+}
+.card{
+    width:  300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(65, 64, 64);
+    text-transform: uppercase;
+}
+.card img{
+    width: 100%;
+    
+}
+.link-horario{
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(127,255,212) ;
+    box-shadow: 0 0 10px 5px #0000008c inset;
+    width: 150px;
+    margin: 20px auto;
+    border-radius: 4px;
+}
+.link-horario a{
+    color: #0000008c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.width-max-conteudo span, footer span{
+    font-weight: bold;
+}
+.contato p{
+   padding: 10px;
+}
+.contato{
+    margin-bottom: 50px;
+}
+iframe{
+    max-width: 1024px;
+    width: 100%;
+    margin: 20px 0 50px;
+}
+footer{
+    background-color:rgb(2, 126, 109) ;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer p{
+    color: #fff;
+    line-height: 33px;
+}
+.desenvolvido {
+    display: flex;
+    margin: 15px auto;
+    border-top: 1px solid #5756568c;
+    padding-top:10px ;
+    
+}
+.desenvolvido p{
+    font-size: 14px;
+}
+.desenvolvido img{
+    width: 30px;
+    border-radius: 50%;
+    margin:0 0 -10px 5px;
+    
+}
+.desenvolvido span{
+    color: #0000008c;
+    font-size: 15px;
+}
+.desenvolvido img:hover{
+    box-shadow: 0 0 10px 1px yellow;
+}
+h2{
+    font-size: 33px;
+    margin: 50px 0 20px;
+}
+h3{
+    margin: 50px auto 5px;
+    font-size: 27px;
+}
