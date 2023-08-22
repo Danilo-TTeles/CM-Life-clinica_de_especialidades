@@ -8,11 +8,18 @@
         border-top: 1px solid #0000008c;
         padding-top: 5px;
     }
+    main{
+        background-color: rgb(216, 214, 214);
+        background-image: none;
+    }
     .navegacao a{
         font-weight: 900;
     }
     .texto{
         max-width: 425px;
+        width: 95%;
+    }
+    .width-max-conteudo{
         width: 95%;
     }
     .width-max-conteudo a{
@@ -51,6 +58,10 @@
 
 @media (min-width:426px)
 and    (max-width:768px){
+    main{
+        background-color: rgb(216, 214, 214);
+        background-image: none;
+    }
     .nav{
         padding-right: 5px;
     }
@@ -67,6 +78,9 @@ and    (max-width:768px){
     }
     .texto{
         max-width: 768px;
+        width: 90%;
+    }
+    .width-max-conteudo{
         width: 90%;
     }
     .width-max-conteudo p{
@@ -104,7 +118,10 @@ and    (max-width:768px){
     }
     .navegacao a{
         font-size: 23px;
- }
+    }
+    .width-max-conteudo{
+        width: 90%;
+    }
     .table{
         max-width: 1024px;
         width: 95%;

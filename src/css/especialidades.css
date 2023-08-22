@@ -1,17 +1,36 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 main, footer{
     font-family: 'Roboto Condensed', sans-serif;
-    color: #0000008c;
+    color: #2d2d2d8c;
+    
+}
+main{
+    padding: 100px 0px 50px;
+    background-image: url('../img/photos_2022_3_21_fst_aged-paper-splattered.jpg');
+    background-position: center;
+    background-size: contain;
+    
+}
+header section{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: 0px;
+    
+   
 }
 .menu{
     box-shadow: 0 0 10px 5px #0000008c inset;
     background-color: rgb(127,255,212);
-    margin-top: 0;
+    margin-top: 0px;
+    
+   
 }
 .menu img{
     width: 25px;
@@ -29,7 +48,7 @@ main, footer{
 }
 .width-max{
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,10 +69,14 @@ main, footer{
 
 .width-max-conteudo{
     max-width: 1024px;
-    
     margin: 0 auto;
     text-align: center;
-
+    background-color: #fff;
+    box-shadow: 0 0 10px 5px #0000008c;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 0px 20px;
+    margin: 50px auto 40px;
 }
 .width-max-conteudo a{
     text-decoration: none;
@@ -79,9 +102,7 @@ main, footer{
 .width-max-conteudo p{
     margin-bottom: 15px;
 }
-section{
-    margin: 40px 0;
-}
+
 .texto{
     max-width: 1024px;
     width: 80%;
@@ -119,7 +140,25 @@ td{
     width: 250px;
     padding-left: 5px;
 }
+.whats{
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    
+}
+@keyframes pulso{
+    0%{scale: 1.2;
 
+
+    }
+    100%{scale: 1.0;
+
+    }
+}
+.whats img{
+    width: 50px; 
+    animation: 1s alternate-reverse infinite pulso;
+}
 footer div{
     max-width: 1024px;
     margin: 0 auto;

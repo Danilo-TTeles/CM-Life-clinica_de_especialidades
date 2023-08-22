@@ -6,7 +6,20 @@
 
 main, footer{
     font-family: 'Roboto Condensed', sans-serif;
-    color: #0000008c;
+    color: #2d2d2d8c;
+   
+
+}
+main{
+    background-image: url('../img/photos_2022_3_21_fst_aged-paper-splattered.jpg');
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 40px;
+}
+header section{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 .menu{
     box-shadow: 0 0 10px 5px #0000008c inset;
@@ -15,6 +28,7 @@ main, footer{
 .menu img{
     width: 25px;
     margin: 0 2px;
+    
     
 }
 .width-max div a{
@@ -68,6 +82,15 @@ main, footer{
     
     
 }
+.width-max-conteudo{
+    background-color: #fff;
+    box-shadow: 0 0 10px 5px #0000008c;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 0px 20px;
+    margin: 20px auto 40px;
+
+}
 .width-max-conteudo div:first-of-type{
     max-width: 800px;
     margin: 0 auto;
@@ -119,9 +142,16 @@ ul{
     box-shadow: 0 0 10px rgb(65, 64, 64);
     text-transform: uppercase;
 }
+.card p{
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+}
 .card img{
     width: 100%;
-    
+   
+      
 }
 .link-horario{
     text-align: center;
@@ -152,6 +182,25 @@ iframe{
     max-width: 1024px;
     width: 100%;
     margin: 20px 0 50px;
+}
+.whats{
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    
+}
+@keyframes pulso{
+    0%{scale: 1.2;
+
+
+    }
+    100%{scale: 1.0;
+
+    }
+}
+.whats img{
+    width: 50px; 
+    animation: 1s alternate-reverse infinite pulso;
 }
 footer{
     background-color:rgb(2, 126, 109) ;
