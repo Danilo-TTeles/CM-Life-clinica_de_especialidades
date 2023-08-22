@@ -4,12 +4,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 main, footer{
     font-family: 'Roboto Condensed', sans-serif;
     color: #2d2d2d8c;
-   
-
 }
 main{
     background-image: url('../img/photos_2022_3_21_fst_aged-paper-splattered.jpg');
@@ -28,9 +25,7 @@ header section{
 }
 .menu img{
     width: 25px;
-    margin: 0 2px;
-    
-    
+    margin: 0 2px;   
 }
 .width-max div a{
     text-decoration: none;
@@ -79,9 +74,7 @@ header section{
 }
 .width-max-conteudo, .galeria, footer div{
     max-width: 1024px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;   
 }
 .width-max-conteudo{
     background-color: #fff;
@@ -90,7 +83,6 @@ header section{
     border-radius: 5px;
     padding: 16px 0px 20px;
     margin: 20px auto 40px;
-
 }
 .width-max-conteudo div:first-of-type{
     max-width: 800px;
@@ -111,14 +103,11 @@ ul{
     margin: 15px auto 50px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
-    
+    justify-content: space-around;   
 }
 .row-1{
     width: 20%;
-    padding-left: 40px;
-    
+    padding-left: 40px;    
 }
 .row-2 p{
     font-size: 23px;
@@ -134,8 +123,6 @@ ul{
     flex-direction:row;
     justify-content:space-between ;
     margin:30px auto;
-
-
 }
 .card{
     width:  300px;
@@ -150,9 +137,7 @@ ul{
     font-weight: bold;
 }
 .card img{
-    width: 100%;
-   
-      
+    width: 100%;     
 }
 .link-horario{
     text-align: center;
@@ -169,7 +154,6 @@ ul{
     font-weight: bold;
     font-size: 18px;
 }
-
 .width-max-conteudo span, footer span{
     font-weight: bold;
 }
@@ -187,8 +171,7 @@ iframe{
 .whats{
     position: fixed;
     bottom: 60px;
-    right: 10px;
-    
+    right: 10px;   
 }
 @keyframes pulso{
     0%{scale: 1.2;
@@ -220,8 +203,7 @@ footer p{
     display: flex;
     margin: 15px auto;
     border-top: 1px solid #5756568c;
-    padding-top:10px ;
-    
+    padding-top:10px ;   
 }
 .desenvolvido p{
     font-size: 14px;
@@ -229,8 +211,7 @@ footer p{
 .desenvolvido img{
     width: 30px;
     border-radius: 50%;
-    margin:0 0 -10px 5px;
-    
+    margin:0 0 -10px 5px;   
 }
 .desenvolvido span{
     color: #0000008c;

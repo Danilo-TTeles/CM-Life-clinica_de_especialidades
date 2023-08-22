@@ -4,38 +4,30 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 main, footer{
     font-family: 'Roboto Condensed', sans-serif;
-    color: #2d2d2d8c;
-    
+    color: #2d2d2d8c;   
 }
 main{
     padding: 100px 0px 50px;
     background-image: url('../img/photos_2022_3_21_fst_aged-paper-splattered.jpg');
     background-position: center;
-    background-size: contain;
-    
+    background-size: contain;   
 }
 header section{
     position: fixed;
     z-index: 1;
     width: 100%;
-    margin-top: 0px;
-    
-   
+    margin-top: 0px;  
 }
 .menu{
     box-shadow: 0 0 10px 5px #0000008c inset;
     background-color: rgb(127,255,212);
-    margin-top: 0px;
-    
-   
+    margin-top: 0px;   
 }
 .menu img{
     width: 25px;
     margin: 0 2px;
-    
 }
 .width-max div a{
     text-decoration: none;
@@ -59,14 +51,12 @@ header section{
     color: #0000008c;
     font-size:20px ;
     font-weight: 900;
-    margin-left: 30px;
-    
+    margin-left: 30px;   
 }
 .navegacao a:hover, .link-horario a:hover, .width-max div a:hover {
     color: #fff;
     text-shadow: 0px 0px 20px  #ff0505;
 }
-
 .width-max-conteudo{
     max-width: 1024px;
     margin: 0 auto;
@@ -102,7 +92,6 @@ header section{
 .width-max-conteudo p{
     margin-bottom: 15px;
 }
-
 .texto{
     max-width: 1024px;
     width: 80%;
@@ -132,10 +121,8 @@ header section{
 table{
     border-collapse:collapse;
     height: 100%;
-    text-align: justify;
-    
+    text-align: justify;   
 }
-
 td{
     width: 250px;
     padding-left: 5px;
@@ -143,8 +130,7 @@ td{
 .whats{
     position: fixed;
     bottom: 60px;
-    right: 10px;
-    
+    right: 10px;   
 }
 @keyframes pulso{
     0%{scale: 1.2;
@@ -171,7 +157,6 @@ footer{
     display: flex;
     flex-direction: column;
 }
-
 footer p{
     color: #fff;
     line-height: 33px;
@@ -181,8 +166,7 @@ footer p{
     display: flex;
     margin: 15px auto;
     border-top: 1px solid #5756568c;
-    padding-top:10px ;
-    
+    padding-top:10px ;   
 }
 .desenvolvido p{
     font-size: 14px;
@@ -190,8 +174,7 @@ footer p{
 .desenvolvido img{
     width: 30px;
     border-radius: 50%;
-    margin:0 0 -10px 5px;
-    
+    margin:0 0 -10px 5px;    
 }
 .desenvolvido span{
     color: #0000008c;
@@ -204,7 +187,6 @@ footer p{
 p{
     font-size: 18px;
     line-height: 24px;
-    
 }
 h1{
     margin-bottom: 40px;
