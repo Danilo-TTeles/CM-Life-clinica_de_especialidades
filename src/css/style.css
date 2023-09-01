@@ -14,14 +14,10 @@ main{
     background-size: contain;
     padding-bottom: 40px;
 }
-header section{
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-}
 .menu{
-    box-shadow: 0 0 10px 5px #0000008c inset;
+    box-shadow: 0 0 50px 10px #0000008c inset;
     background-color: rgb(127,255,212);
+    width: 100%;
 }
 .menu img{
     width: 25px;
@@ -44,12 +40,17 @@ header section{
     align-items: center;
     height: 70px;
 }
+.navegacao{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
 .navegacao a{
     text-decoration: none;
     color: #0000008c;
     font-size:20px ;
     font-weight: 900;
-    margin-left: 30px;
+    
     
 }
 .navegacao a:hover, .link-horario a:hover, .width-max div a:hover {
@@ -188,6 +189,7 @@ iframe{
 }
 footer{
     background-color:rgb(2, 126, 109) ;
+    box-shadow: 0 0 100px 10px #0000008c inset;
     
 }
 footer{
@@ -206,7 +208,7 @@ footer p{
     padding-top:10px ;   
 }
 .desenvolvido p{
-    font-size: 14px;
+    font-size: 16px;
 }
 .desenvolvido img{
     width: 30px;

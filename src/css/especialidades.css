@@ -50,8 +50,7 @@ header section{
     text-decoration: none;
     color: #0000008c;
     font-size:20px ;
-    font-weight: 900;
-    margin-left: 30px;   
+    font-weight: 900;  
 }
 .navegacao a:hover, .link-horario a:hover, .width-max div a:hover {
     color: #fff;
@@ -78,7 +77,7 @@ header section{
     padding: 3px 10px ;
 }
 .width-max-conteudo a:hover{
-    animation:2s linear 0s infinite alternate navtop;
+    animation:1s linear  infinite alternate navtop;
     border-radius: 10px;
 }
 @keyframes navtop{
@@ -169,7 +168,7 @@ footer p{
     padding-top:10px ;   
 }
 .desenvolvido p{
-    font-size: 14px;
+    font-size: 17px;
 }
 .desenvolvido img{
     width: 30px;

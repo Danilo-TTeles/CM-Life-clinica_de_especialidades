@@ -1,12 +1,27 @@
-@media (max-width:425px){
-    .width-max{
+@media (max-width:480px){
+    .menu .width-max{
         display: flex;
         flex-direction: column;
-        padding: 10px 0;
-        height: 80px;
-    }.navegacao{
-        border-top: 1px solid #0000008c;
-        padding-top: 5px;
+        justify-content: center;
+        height:110px;width: 100%;
+    }
+    .width-max div, .width-max nav{
+        padding: 5px 0 ;
+    }
+    .width-max .navegacao{
+        width: 100%; 
+        flex-wrap: wrap; 
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    .width-max .navegacao{
+        width: 100%; 
+        display: flex;
+        justify-content:space-around;
+    }
+    .navegacao a{
+        font-weight: 900;
+        font-size: 25px;
     }
     main{
         background-color: rgb(216, 214, 214);
@@ -56,8 +71,16 @@
     }
  }
 
-@media (min-width:426px)
+@media (min-width:481px)
 and    (max-width:768px){
+    header .menu{
+        padding-bottom:10px ;
+    }
+    header .width-max{
+        width: 95%;
+        max-width: 768px;
+        flex-direction: column;
+    }
     main{
         background-color: rgb(216, 214, 214);
         background-image: none;
@@ -96,6 +119,7 @@ and    (max-width:768px){
         margin: 10px 0px;
     }
     td{
+        text-align: center;
         padding-top:15px ;
         padding-bottom:15px ;
     }
@@ -113,6 +137,10 @@ and    (max-width:768px){
 
  @media (min-width:769px)
  and    (max-width:1024px){
+    header .width-max{
+        width: 95%;
+        max-width: 768px;
+    }
     .nav{
         padding-right: 5px;
     }
@@ -129,6 +157,7 @@ and    (max-width:768px){
     }
     p, td, th{
         font-size: 20px;
+        text-align: center;
     }
     
 }
